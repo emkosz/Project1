@@ -6,85 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>emkosz | pbs</title>
-
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css"
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
+        <!-- The Header Image Section -->
+        <header>
+            <div id="main-header">
+                <img></img>
+                <p>Hello, I'm Emma</p>
+                <p>Software developer</p>
+            </div>
+        <header>
+            
 
-    <!-- The Header Image Section -->
-    <!-- want to put a text on top of this image later on -->
-      <img src="http://lorempixel.com/nature/1024/300" class="image header-image">
+        <!-- The Navbar Section -->
+        <ul class="nav nav-tabs">
+          <li role="presentation" class="active"><a href="#">About</a></li>
+          <li role="presentation"><a href="#">Portfolio</a></li>
+          <li role="presentation"><a href="#">Contact</a></li>
+        </ul>
 
-
-    <!-- The Navbar Section -->
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link 1<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link 2</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-    <!-- The About Me Section -->
-    <div class="col-md-2">
-        <img src="http://www.fillmurray.com/g/120/180">
+        <!-- The About Me Section -->
+        <div class="row">
+            <div class="about_me">
+              <div class="col-md-8">
+                 <strong>About me</strong>
+                <p>
+                        Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.
+                </p>
+                </div>
+              
+              <div class="col-md-4">
+                <img src="http://www.fillmurray.com/g/150/200">
+                </div>
+            </div>
         </div>
-
-    <div class="col-md-8">
-        <div><strong>About me</strong></div>
-            <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p>
-    </div>
-
 
 
     <!-- The Portfolio (projects) Section -->
-    <div><strong>Portfolio</strong></div>
-    <div class="section group">
-        <div class="col span_1_of_3">Project 1</div>
-            <!--<img src="http://www.fillmurray.com/g/120/120">
-            <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do.</p> -->
-        
-        <div class="col span_1_of_3">Project 2</div>
-        
-        <div class="col span_1_of_3">Project 3</div>
-    </div>
+        <!-- <div class="col-md-8"><strong>Portfolio</strong></div> -->
 
-
-
-        <div class="col-md-4">
         <div class="row">
-            <h3 class="project-content-header">Epic project 1</h3>
-            <img src="http://www.fillmurray.com/g/120/120">
+          <div class="col-md-4">
 
+            <img src="http://www.fillmurray.com/g/120/120" class="proj-img"></img>
+            <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do.</p>
+            </div>
 
+          <div class="col-md-4">
+            
+            <img src="http://www.fillmurray.com/g/120/120"></img>
+            <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do.</p>
+            </div>
+
+          <div class="col-md-4">
+
+            <img src="http://www.fillmurray.com/g/120/120"></img>
+            <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do.</p>
+            </div>
+        
+        </div>
+                    
 
 
     <!-- The Contact Section -->
@@ -93,11 +78,13 @@
 
     <!-- The Footer Section -->
     <!-- Links to social media -->
+    <div>
+        <footer> &copy; Emma Koszinowski 2015 
+            <a href="https://www.linkedin.com/in/EmmaKoszinowski">LinkedIn<a>
+        </footer>
+    </div>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    
   </body>
 </html>

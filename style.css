@@ -2,20 +2,36 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-
 #main-header {
-	background-image: url(http://lorempixel.com/nature/600/300);
+	background-image: url(http://lorempixel.com/nature/900/300);
 	/*background-color: red;*/
-	background-size: 900px 300px;
+	/*background-size: 900px 300px;*/
 	width: 100%;
 	text-align: center;
-
+	color: #fff;
 }
 
+/* about me */
+.row {
+	background-color: gray;
+	padding: 30px 70px 30px 70px;
+}
+
+/*.about_me {
+	background-color: blue;
+}*/
+
+.proj-img {
+	background-image: center;
+}
+
+
 img {
-	max-width: 100%
+	max-width: 100%;
 }
 
 footer {
+	background-color: gray;
 	color: green;
+
 }
